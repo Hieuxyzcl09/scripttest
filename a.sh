@@ -1,4 +1,4 @@
-sudo apt-get update
-sudo apt-get install tmate screen
+apt-get update
+apt-get -y install tmate screen
 tmate -F >> t &
 cat t
